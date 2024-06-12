@@ -51,7 +51,7 @@ async function getPosts() {
     });
   
     // Limpiamos cualquier contenido previo en el contenedor de posts, de esta forma aseguramos que si se da click varias veces no sigan saliendo
-      postContainer.innerHTML = ''; 
+      postContainer.innerHTML = '';
     
     // Añadimos el ul con todos los posts al contenedor de posts
     postContainer.appendChild(ul);
